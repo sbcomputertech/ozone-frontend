@@ -41,3 +41,18 @@ body {
     transform: rotate(360deg);
   }
 }
+
+.Info-block {
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  border-color: aquamarine;
+  border-style: solid;
+  border-radius: 20px;
+  width: 20cm;
+  margin-left: auto;
+	margin-right: auto;
+}

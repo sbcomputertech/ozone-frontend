@@ -10,16 +10,21 @@ function App(props) {
         <p>
           Welcome to <code>Project Ozone</code>
         </p>
-        <ul><a
+        <u><a
           className="App-link"
           target="_blank"
           rel="noopener noreferrer"
           href="http://samuelbennett.co.uk/ozone/"
         >
           Learn more<br />
+        </a>
           <b>Password: <code>OZONEproject</code></b>
-        </a></ul>
+        </u>
       </header>
+      <div className="Info-block">
+        <h3>This is project ozone<br />A smart solution for a nonexistent problem</h3>
+        <b><h4>Made by Sam Bennett</h4></b>
+      </div>
     </div>
   );
 }
